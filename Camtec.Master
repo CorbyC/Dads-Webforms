@@ -10,13 +10,13 @@
     <title><%: Page.Title %> - Camtec Industrial LLC</title>
 </head>    
 <div id="MasterWrapper">
-    <div id="TopMenu">
-        <img id="TopMenuImage" alt="Camtec Title Image" src="http://placekitten.com/g/800/200" />        
+    <div id="TopMenu">        
+        
         <div id="TopMenuBar">        
-            <a href="~/" class="Logo">Camtec Industrial LLC</a>
+            <a href="Default.aspx" class="Logo">Camtec Industrial LLC</a>
             <ul>
                 <li>
-                    <a href="~/" class="TopMenuBarItem">Home</a>
+                    <a href="Default.aspx" class="TopMenuBarItem">Home</a>
                 </li>
                 <li>
                     <a href="Products.aspx" class="TopMenuBarItem">Products</a>
@@ -29,6 +29,8 @@
                 </li>
             </ul>
         </div>
+        <img id="TopMenuImage" alt="Camtec Title Image" src="img/greysilos960.jpg" />
+        <img id="ThirtyFiveYears" alt="35 years" src="img/35years.png" />
     </div>
     <div id ="ContentBody">
         <asp:ContentPlaceHolder ID="head" runat="server">

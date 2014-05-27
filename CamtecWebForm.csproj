@@ -102,7 +102,11 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrapold.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\MainTheme.css" />
+    <Content Include="Content\MainTheme.css">
+      <DependentUpon>MainTheme.less</DependentUpon>
+    </Content>
+    <Content Include="Content\MainThemeGradientFail.css" />
+    <Content Include="Content\reset.css" />
     <Content Include="Content\Siteold.css" />
     <Content Include="Content\Example.css">
       <DependentUpon>Example.less</DependentUpon>
@@ -121,13 +125,17 @@
     <Content Include="Content\Example.css.map">
       <DependentUpon>Example.css</DependentUpon>
     </Content>
+    <Content Include="Content\MainThemeGradientFail.less" />
+    <Content Include="Content\MainThemeGradientFail.css.map">
+      <DependentUpon>MainThemeGradientFail.css</DependentUpon>
+    </Content>
     <Content Include="Content\MainTheme.less" />
     <Content Include="Content\MainTheme.css.map">
       <DependentUpon>MainTheme.css</DependentUpon>
     </Content>
-    <Content Include="Content\MainThemeCenteredModel.less" />
     <None Include="Properties\PublishProfiles\Camtec.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Products.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -221,6 +229,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

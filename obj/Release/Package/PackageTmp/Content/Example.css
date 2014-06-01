@@ -1,0 +1,28 @@
+﻿/* there is a reset css online you can get to standardize default margins across browsers */
+/* pure.css and metroui.org.ua are perebuild styles you could borrow. Maybe google for others?*/
+.positionCenter {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+body,
+footer {
+  color: green;
+}
+body A,
+footer A {
+  background-color: ActiveCaption;
+}
+body div,
+footer div {
+  ruby-align: auto;
+}
+body div:hover,
+footer div:hover {
+  /* this is the syntax for events */
+  color: lavender;
+}
+/*# sourceMappingURL=Test.css.map */

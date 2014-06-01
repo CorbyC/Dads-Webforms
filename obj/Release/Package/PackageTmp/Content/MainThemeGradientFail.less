@@ -1,0 +1,90 @@
+﻿body {
+   background-color: lightgray;
+}
+
+#MasterWrapper{
+    /*left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;*/
+    width: 800px;
+}
+
+#MenuBar {
+    height: 40px;
+    /*background-color: purple;*/
+    ul{
+        /*float:left;*/
+        /*removes bullets*/
+        /*list-style-type: none;*/ 
+        line-height: 40px;
+        margin: 0;
+        padding: 0;    
+        li{
+            /*makes them display next to eachother*/    
+            /*display:inline;*/ 
+            a{
+                text-decoration: none;
+                padding: .2em .5em;
+            }
+        }
+    }
+}
+
+#TopImageDiv{
+    /*width: 800px;
+    height: 300px;*/    
+    #TopMenuImage{
+        width: 800px;
+        height: 300px;  
+            /*box-shadow: inset 0 0 70px 75px white;*/
+        box-shadow: inset 30px 70px 100px 150px blue;
+    }
+}
+
+.Fade {
+    /*height: 100%;
+    width: 100%;
+    position:absolute;*/
+    background: -webkit-linear-gradient(left, 
+                rgba(0,0,250,0.65) 0%, 
+                rgba(0,0,250,0) 30%,
+                rgba(0,0,250,0) 70%,
+                rgba(0,0,250,0.65) 100%
+    );
+}
+
+.MenuBarItem{
+    &:hover{
+        color: darkblue;
+    }
+    color: black;
+}
+
+.Logo{
+    color:blue;
+    font-size: 28px;
+    font-style: italic;    
+}
+
+.LogoBox{
+    height: 38px;
+    width: 275px;
+    background-color: black;
+    border: 3px solid gray;
+    text-align:center;
+}
+
+#MenuLogoBox{
+    /*position:absolute;*/
+    margin-left:500px;
+    top:100px;
+}
+
+#ThirtyFiveYears{
+    position: relative;
+    top: 25px;
+    left: 650px;
+}
+
+
